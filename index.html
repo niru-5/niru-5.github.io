@@ -144,9 +144,9 @@
                 <h3>Chess-playing robot arm <span class="muted">(ERH Hackathon)</span></h3>
                 <span class="metric">Fixed open-source policy normalization</span>
               </div>
-              <p>At the ERH hackathon, our team built an SO-101 arm that moves pieces on a physical chess board. The robot-side pipeline covered scripted teleoperated data collection into LeRobotDataset v3.0, and a rollout tool that runs a pretrained FLUX 3 Action policy on the arm with the model either local or on a remote GPU, behind one command. While fine-tuning, we found a normalization issue in the open-source model and corrected it with our own normalization. The arm then moved pieces with the fine-tuned policy.</p>
+              <p>At the ERH hackathon, our team built an SO-101 arm that moves pieces on a physical chess board. The robot-side pipeline covered scripted teleoperated data collection into LeRobotDataset v3.0, and a rollout tool that runs a pretrained FLUX 3 Action policy on the arm with the model running on a remote GPU, behind one command. While fine-tuning, we found a normalization issue in the open-source model and corrected it with our own normalization. The arm then moved pieces with the fine-tuned policy.</p>
               <ul class="chips" aria-label="Stack">
-                <li>SO-101</li><li>LeRobot v3</li><li>FLUX 3 Action</li><li>Fine-tuning</li><li>Remote + local inference</li>
+                <li>SO-101</li><li>LeRobot v3</li><li>FLUX 3 Action</li><li>Fine-tuning</li><li>Remote GPU inference</li>
               </ul>
               <p class="learned"><span class="learned-label">What I learned</span> Simulation is super important for getting data in time-constrained environments like a hackathon.</p>
               <a class="text-link" href="https://github.com/niru-5/erh-hackathon-orchestrators" rel="noopener">GitHub ↗</a>
